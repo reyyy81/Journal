@@ -8,6 +8,7 @@ import SinglePage from "./components/singlePage/SinglePage"
 import Culture from "./components/culture/Culture"
 import Blogs from "./components/Blogs"
 import Art from "./components/Art"
+import Postmaster from "./components/Posts/Post"
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route exact path='/culture' component={Culture} />
           <Route exact path='/blogs' component={Blogs} />
           <Route exact path='/Art' component={Art} />
+          <Route exact path='/post' component={Postmaster} />
 
         </Switch>
         <Footer />
